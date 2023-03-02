@@ -1,0 +1,1804 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Matemática e suas tecnologias</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/fa/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/lt-estilos.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- <link rel="stylesheet" href="assets_obj/css/style-olimpiadas-verdadeiro-ou-falso.css"> -->
+
+    <link rel="stylesheet" href="drag/js/dragula.css">
+    <link rel="stylesheet" href="drag/css/game-custom.css">
+    <link rel="stylesheet" href="objeto_associarColunas/css/associar-colunas.css">
+    <link rel="stylesheet" href="assets/print/print.css">
+</head>
+
+<body class="bg-sesc">
+    <div class="preloader">
+        <div class="anim"></div>
+        <h1>Aguarde enquanto o conteúdo é carregado.</h1>
+    </div>
+    <!-- MARCA D´ÁGUA -->
+    <img src="assets/img/logo_sesc_horizontal.svg" id="marcadaguaLogo">
+
+    <header id="topo" class="sesc no-print">
+        <img src="assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
+    </header>
+    <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
+    <section id="booklet">
+        <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
+        <header class="titulo-conteudo mb-0 print">
+            <div class="container" style="padding-top:1px">
+                <!--titulo do curso para o print e leitor de tela-->
+                <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Matemática e suas Tecnologias
+                </h1>
+                <div class="row g-0 pb-4 pt-4">
+                    <div class="col-9 d-flex flex-column justify-content-center align-items-start">
+                        <!-- <h2>Matemática</h2> -->
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-end align-items-end">
+                        <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i
+                                class="fas fa-print "></i> imprimir</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="paginas">
+            <!-- PG1 -->
+            <div class="pagina">
+                <!-- <img src="img/elem_float_1.png" class="no-print rellax-esquerda-big relax-top18" data-rellax-speed="4"> -->
+
+                <div class="bloco1-pg1">
+                    <div class="container">
+                        <h2> Gráficos e tabelas como representações da realidade</h2>
+                        <h4>Quarta etapa: organização dos dados</h4>
+                        <p>
+                            Como já estudado no módulo I, no dia a dia são realizadas diversas pesquisas estatísticas,
+                            como, por exemplo, pesquisas de preços, pesquisas eleitorais, pesquisas de satisfação,
+                            pesquisas de audiência de programas de televisão, entre outras. Nos estudos anteriores,
+                            comparamos os valores da cesta básica e do salário mínimo com os de dez anos atrás e
+                            percebemos que houve aumento em ambos, porém não proporcionalmente.
+                        </p>
+                        <p>
+                            Você deve ter percebido que o valor dos alimentos muda todos dias, mas sabe quando há
+                            reajuste do salário mínimo?
+                        </p>
+                        <p>
+                            No período de dezembro, sempre há a expectativa de qual será o reajuste do salário mínimo
+                            para o próximo ano. Muito provavelmente você já visualizou gráficos nos jornais, nas redes
+                            sociais e nos telejornais. Lembra-se de qual foi o tipo de gráfico mais utilizado para
+                            acompanhar a evolução do salário mínimo ao longo do tempo? O gráfico mais utilizado para
+                            apresentar a evolução de uma variável ao longo do tempo é o gráfico de linhas. Observe o
+                            exemplo:
+                        </p>
+                        <figure>
+                            <img src="img/figura_01.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra um gráfico de linhas com eixo horizontal representando o tempo em ano, do ano 2000 até o ano de 2022. O primeiro dado apresentado é o ano de 2000 com o salário de R$ 151, e seguindo desta forma: ano de 2001 e salário de R$ 180, ano de 2002 e salário de R$ 200, ano de 2003 e salário de R$ 240, ano de 2004 e salário de R$ 260, ano de 2005 e salário de R$ 300, ano de 2006 e salário de R$ 350, ano de 2007 e salário de R$ 380, ano de 2008 e salário de R$ 415, ano de 2009 e salário de R$ 465, ano de 2010 e salário de R$ 510, ano de 2011 e salário de R$ 540, que depois aumentou para R$ 545, ano de 2012 e salário de R$ 622, ano de 2013 e salário de R$ 678, ano de 2014 e salário de R$ 724, ano de 2015 e salário de R$ 788, ano de 2016 e salário de R$ 880, ano de 2017 e salário de R$ 937, ano de 2018 e salário de R$ 954, ano de 2019 e salário de R$ 998, ano de 2020 e salário de R$ 1.039, que subiu para R$ 1.045, ano de 2021 e salário de R$ 1.100, ano de 2022 e salário de R$ 1.212. ">
+                            <figcaption>Figura 1 – Gráfico de linhas sobre o salário mínimo brasileiro <br>
+                                Fonte: Sesc EJA EAD (2022)
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Com o gráfico, você pode observar o aumento ano após ano do salário mínimo. Inicialmente,
+                            isso pode indicar que estamos nos encaminhando para uma melhoria da qualidade de vida do
+                            povo brasileiro.
+                        </p>
+                    </div>
+                </div>
+                <div class="bloco2-pg1">
+                    <!-- <img src="img/elem_float_2.png" class="no-print rellax-direita-big relax-top1" data-rellax-speed="4"> -->
+                    <div class="container">
+                        <div class="caixa_vamos_refletir">
+                            <img src="img/vamos_refletir.png" class="no-print" alt="">
+                            <div class="vamos_refletir1">
+                                <p>
+                                    Será que conseguimos atualmente comprar as mesmas coisas que comprávamos há alguns
+                                    anos? Ou seja, será que mantivemos o nosso poder de compra? Já realizamos a
+                                    comparação entre os anos de 2012 e 2022. A partir do valor da cesta básica e do
+                                    percentual que esse valor consumia do salário mínimo de cada ano, concluímos que o
+                                    poder de compra não foi mantido, pois o percentual de comprometimento da renda em
+                                    2022 foi maior.
+                                </p>
+                            </div>
+                            <div class="vamos_refletir2">
+                                <p>
+                                    Todas as informações, inclusive as que são representadas em gráficos, devem ser
+                                    acompanhadas de uma leitura crítica, ou seja, não podemos realizar a leitura
+                                    superficialmente. É importante, então, realizar comparativos com outras fontes de
+                                    informações, com gráficos e índices para não cometer injustiças ou propagar
+                                    informações descontextualizadas e até mesmo <span class="bt-tooltip"
+                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                        title="Verbete: notícias falsas publicadas por veículos de comunicação como se fossem informações reais.">
+                                        <em>fake news</em>.</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="bloco3-pg1">
+
+                    <!-- <img src="img/elem_float_2.png" class="no-print rellax-direita-big relax-top1" data-rellax-speed="4"> -->
+
+                    <div class="container">
+                        <h2></h2>
+                        <p>
+                            O gráfico anterior, que demonstrou os valores do salário mínimo ao longo dos anos, é um
+                            gráfico de linhas em que, no eixo horizontal, está representado o tempo. Este tempo deve ser
+                            indicado proporcionalmente ao período, ou seja, se iniciar de forma diária, deve ser sempre
+                            representado de forma diária; se iniciar de forma semanal, deve ser sempre representado de
+                            forma semanal. No eixo vertical estão representados os valores observados na forma de um
+                            ponto. Os pontos consecutivos são unidos por uma linha.
+                        </p>
+                        <p>
+                            A seguir, confira um outro exemplo com GIF a seguir, adaptado do <em>site</em> do Instituto
+                            Brasileiro de Geografia e Estatística (c2023):
+                        </p>
+                        <figure>
+                            <img src="img/gifs/gif_linhas.gif" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A animação mostra um gráfico de linhas com o título “Elementos: gráfico de linhas”. No gráfico, há uma linha vermelha na horizontal, que representa o eixo vertical (escala), e uma linha na horizontal, que representa o eixo horizontal (geralmente representa o tempo). No interior dos eixos, inicialmente, aparecem pontos verdes ligados por uma linha, depois aparecem linhas cinzas e ao lado delas o texto “posição vertical, de acordo com a intensidade de cada momento representado”; ligando as linhas cinzas e paralela ao eixo horizontal está uma linha na cor rosa, e ao seu lado o texto: “distância proporcional ao período de tempo representado”. ">
+                            <!-- <figcaption>
+                                        gif
+                                    </figcaption> -->
+                        </figure>
+                        <p>
+                            O gráfico de linhas é indicado para comparações de danos ao longo de um determinado
+                            intervalo de tempo, por isso, não pode ser utilizado para representar informações de
+                            qualquer tipo de variável. Mas quais são as outras estratégias para organização de
+                            informações?
+                        </p>
+
+                    </div>
+                </div>
+                <div class="bloco4-pg1">
+                    <!-- <img src="img/elem_float_1.png" class="no-print rellax-esquerda-big relax-top5" data-rellax-speed="4"> -->
+
+                    <div class="container">
+                        <h2>A apresentação dos dados de Calculópolis </h2>
+                        <p>
+                            Considerando que anteriormente falamos sobre renda, na pesquisa da cidade de Calculópolis
+                            foi realizado o questionamento sobre a renda familiar. De posse desses dados, é possível
+                            realizar o tratamento deles. Mas como organizar e representar os dados coletados referentes
+                            às rendas das famílias da cidade de Calculópolis?
+                        </p>
+                        <p>
+                            No decorrer deste módulo, verificaremos as melhores estratégias, considerando tabelas e
+                            gráficos, para demonstrar essas informações.
+                        </p>
+                        <p>
+                            Veja como ficou a apresentação do gráfico da renda familiar da pesquisa de Calculópolis:
+                        </p>
+                        <figure>
+                            <img src="img/figura_02.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra um gráfico de barras representando as rendas familiares da cidade de Calculópolis. No eixo vertical são apresentados os elementos da variável e, no eixo horizontal, a quantidade de domicílios que apresentou a renda. De baixo para cima, no eixo vertical, constam as faixas salariais “até um salário mínimo”, com 14 domicílios; “de um a dois salários mínimos”, com 10 domicílios; “de dois a três salários mínimos”, com 18 domicílios; “de três a quatro salários mínimos”, com 2 domicílios; “de quatro a cinco salários mínimos”, com 4 domicílios; “de cinco a seis salários mínimos”, com 3 domicílios; “de seis a sete salários mínimos”, com 2 domicílios; “de sete a oito salários mínimos”, sem observações; e por último, no topo da imagem, “de oito a nove salários mínimos”, com 2 domicílios. ">
+                            <figcaption>
+                                Figura 2 – Gráfico de barras horizontais sobre a renda familiar <br>
+
+                                Fonte: Sesc EJA EAD (2022)
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Nesse gráfico, é possível observar que a maior parte das famílias tem renda de dois a três
+                            salários mínimos, 18 famílias, no caso. Observa-se ainda que 14 famílias recebem menos de um
+                            salário mínimo e 10 famílias recebem de um salário até dois salários mínimos.
+                        </p>
+                        <p>
+                            No questionário da cidade de Calculópolis, a comissão da pesquisa organizou os rendimentos
+                            em faixas de renda, pois a renda, sendo uma <b>variável quantitativa</b>, pode assumir
+                            valores muito diferentes e com valores decimais. Isso significa que dificilmente haverá
+                            rendas iguais, logo, uma tabela possivelmente teria muitas linhas, o que ocasionaria uma
+                            leitura cansativa e sem síntese de resultados.
+                        </p>
+                        <p>
+                            As <b>variáveis quantitativas</b> devem ser organizadas em ordem crescente (do menor para o
+                            maior valor) ou decrescente (do maior para o menor valor) para um melhor entendimento; se
+                            houver <b>variáveis qualitativas</b>, será preciso organizá-las em ordem alfabética.
+                        </p>
+                        <p>
+                            Observe como as variáveis quantitativas, em relação à renda, foram agrupadas e organizadas
+                            em ordem crescente:
+                        </p>
+                        <figure>
+                            <img src="img/info1.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in" alt="">
+                        </figure>
+                        <p>
+                            A comissão, com o objetivo de comparar cada um desses valores em relação ao todo e facilitar
+                            a tomada de decisões, passou a representar em forma de tabela as repetições de cada dado
+                            percentualmente. Essa forma de representação percentual dos dados é chamada de frequência
+                            relativa. Na estatística, a quantidade de vezes que o valor de uma variável se repete é
+                            chamado de frequência absoluta.
+                        </p>
+                    </div>
+
+                    <img src="img/div_bg3_pag1.png" class="bloco-divisoria no-print" alt="">
+                </div>
+                <div class="bloco5-pg1">
+                    <!-- <img src="img/elem_float_4.png" class="no-print rellax-direita-big relax-top1" data-rellax-speed="4"> -->
+
+                    <div class="container">
+                        <p>
+                            A frequência relativa é calculada pela divisão entre a frequência absoluta e o total de
+                            elementos da amostra. Isso pode ser descrito com seguinte fórmula:
+                        </p>
+                        <figure>
+                            <img src="img/equacao_01.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="Imagem da fórmula da frequência relativa: frequência relativa do dado igual à frequência absoluta dividida pelo total de elementos da amostra. ">
+
+                        </figure>
+                        <p>
+                            Normalmente, a frequência relativa é apresentada em percentual, mas também pode ser indicada
+                            de modo decimal ou fracionário.
+                        </p>
+                        <p>
+                            A comissão, com o objetivo de comparar os dados com o total de amostras, decidiu calcular as
+                            frequências relativas do número de correspondentes à quantidade de salários mínimos que as
+                            famílias recebem. Para isso, utilizou os dados das frequências absolutas da tabela,
+                            considerando a amostra de 55 domicílios de Calculópolis. Veja como esse cálculo foi
+                            realizado:
+                        </p>
+                        <figure>
+                            <img src="img/figura_03.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra um cálculo em que até 1 salário mínimo é igual à frequência absoluta dividido pelo total de elementos da amostra, que é igual a 14 sobre 55, que é igual a 0,25 multiplicado por 100% igual a 25%. De elemento “100%” sai uma seta para o texto “multiplicar o resultado da divisão por 100% para transformar em porcentagem”.">
+                            <figcaption>Figura 3 – Passo a passo do cálculo de uma frequência relativa <br>
+
+                                Fonte: Sesc EJA EAD (2022)
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/equacao_02.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra a seguinte fórmula: de 1 a 2 salários mínimos igual à frequência absoluta sobre total de elementos da amostra igual a 10 sobre 55 igual a 0,18 multiplicado por 100% igual a 18%.">
+                        </figure>
+                        <figure>
+                            <img src="img/equacao_03.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra a seguinte fórmula: de 2 a 3 salários mínimos igual à frequência absoluta sobre o total de elementos da amostra igual a 18 sobre 55 igual a 0,33 multiplicado por 100% igual a 33%.">
+                        </figure>
+                        <figure>
+                            <img src="img/equacao_04.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra a seguinte fórmula: de 3 a 4 salários mínimos igual à frequência absoluta sobre o total de elementos da amostra igual a 2 sobre 55 igual a 0,04 multiplicado por 100% igual a 4%.">
+                        </figure>
+                        <figure>
+                            <img src="img/equacao_05.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra a seguinte fórmula: de 4 a 5 salários mínimos igual à frequência absoluta sobre o total de elementos da amostra igual a 4 sobre 55 igual a 0,07 multiplicado por 100% igual a 7%.">
+                        </figure>
+                        <figure>
+                            <img src="img/equacao_06.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra a seguinte fórmula: de 5 a 6 salários mínimos igual à frequência absoluta sobre total de elementos da amostra igual a 3 sobre 55 igual a 0,05 multiplicado por 100% igual a 5%.">
+                        </figure>
+                        <figure>
+                            <img src="img/equacao_07.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra a seguinte fórmula: de 6 a 7 salários mínimos igual à frequência absoluta sobre o total de elementos da amostra igual a 2 sobre 55 igual a 0,04 multiplicado por 100% igual a 4%.">
+                        </figure>
+                        <figure>
+                            <img src="img/equacao_08.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra a seguinte fórmula: de 8 a 9 salários mínimos igual à frequência absoluta sobre total de elementos da amostra igual a 2 sobre 55 igual a 0,04 multiplicado por 100% igual a 4%.">
+                        </figure>
+                    </div>
+                </div>
+                <div class="bloco6-pg1">
+                    <div class="container">
+                        <p>
+                            Seguindo essa organização de dados, a comissão organizadora apresentou a seguinte tabela
+                            referente à pergunta: “Somando a sua renda com a renda das pessoas que moram com você,
+                            quanto é, aproximadamente, a renda familiar?”.
+                        </p>
+                        <p>
+                            As tabelas resumem o conjunto de dados coletados em uma pesquisa e devem apresentar em sua
+                            estrutura título e fonte. O título deve conter informações suficientes para explicitar o que
+                            está sendo apresentado. A fonte deve identificar a origem dos dados apresentados. Em
+                            tabelas, os dados são apresentados em linhas e colunas, contribuindo para a leitura e a
+                            interpretação das informações.
+                        </p>
+                        <table class="sesc">
+                            <tr>
+                                <th>Renda familiar</th>
+                                <th>Frequência absoluta</th>
+                                <th>Frequência relativa</th>
+                            </tr>
+                            <tr>
+                                <td>Até 1 salário mínimo</td>
+                                <td>14</td>
+                                <td>14551455 ou 25%</td>
+                            </tr>
+                            <tr>
+                                <td>De 1 a 2 salários mínimos</td>
+                                <td>10</td>
+                                <td>10551055 ou 18% </td>
+                            </tr>
+                            <tr>
+                                <td>De 2 a 3 salários mínimos</td>
+                                <td>18</td>
+                                <td>18551855 ou 33%</td>
+                            </tr>
+                            <tr>
+                                <td>De 3 a 4 salários mínimos</td>
+                                <td>2</td>
+                                <td>255255 ou 4%</td>
+                            </tr>
+                            <tr>
+                                <td>De 4 a 5 salários mínimos</td>
+                                <td>4</td>
+                                <td>455455 ou 7%</td>
+                            </tr>
+                            <tr>
+                                <td>De 5 a 6 salários mínimos</td>
+                                <td>3</td>
+                                <td>355355 ou 5%</td>
+                            </tr>
+                            <tr>
+                                <td>De 6 a 7 salários mínimos</td>
+                                <td>2</td>
+                                <td>255255 ou 4%</td>
+                            </tr>
+                            <tr>
+                                <td>De 8 a 9 salários mínimos</td>
+                                <td>2</td>
+                                <td>255255 ou 4%</td>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td>55</td>
+                                <td>1 ou 100%</td>
+                            </tr>
+                        </table>
+                        <figcaption>
+                            Fonte: Sesc EJA EAD (2022)
+                        </figcaption>
+                        <p>
+                            O título dessa tabela é “Renda familiar dos domicílios de Calculópolis”. Ela tem três
+                            colunas (divisões na vertical) e dez linhas (divisões na horizontal).
+                        </p>
+                        <p>
+                            Na primeira linha, são apresentadas as seguintes informações: na primeira coluna, a
+                            categoria pesquisada (no caso, renda familiar); na segunda coluna, a frequência absoluta (no
+                            caso, a quantidade de famílias que recebem entre a faixa salarial que é citada na primeira
+                            coluna); na terceira coluna, a frequência relativa (no caso, o percentual de famílias que
+                            recebem entre a faixa salarial que é citada na primeira coluna em relação ao total).
+                        </p>
+                        <p>
+                            Da segunda à oitava linhas são especificados os seguintes dados: na primeira coluna, a faixa
+                            salarial de moradores por moradia; na segunda coluna, a quantidade de moradias que
+                            correspondem à faixa salarial; na terceira coluna, o percentual correspondente ao
+                            recebimento da faixa salarial.
+                        </p>
+                        <p>A fonte, “Sesc EJA EAD (2022)” informa quem forneceu as informações. </p>
+                        <p>
+                            Após obter todos os dados organizados da pesquisa realizada com os moradores de
+                            Calculópolis, será possível entender melhor a realidade da população em relação às suas
+                            carências e potencialidades. Todos os resultados da pesquisa foram organizados em tabelas,
+                            pois a comissão organizadora da pesquisa teve por objetivo construir gráficos para a
+                            apresentação à administração municipal. No decorrer do módulo, serão estudados diferentes
+                            tipos de gráficos com o objetivo de evidenciar os mais apropriados a cada variável, contexto
+                            e finalidade no processo de divulgação e apresentação dos dados.
+                        </p>
+                    </div>
+                </div>
+                <div class="bloco7-pg1">
+
+                    <!-- <img src="img/elem_float_5.png" class="no-print rellax-esquerda-big relax-top1" data-rellax-speed="4">
+                            <img src="img/elem_float_6.png" class="no-print rellax-esquerda-big relax-top15" data-rellax-speed="4">
+                            <img src="img/elem_float_7.png" class="no-print rellax-esquerda-big relax-top25" data-rellax-speed="4"> -->
+
+                    <div class="container">
+                        <h2>Entendendo os resultados</h2>
+                        <h4>Quinta etapa: resultados e análises </h4>
+                        <p>
+                            As reportagens em revistas, jornais, em conteúdos da Internet, em programas de televisão,
+                            entre outros locais de divulgação de conteúdos, estão repletas de gráficos e tabelas com
+                            dados estatísticos, portanto, no dia a dia, é mais usual encontrarmos informações na forma
+                            de gráficos. Mas você já se perguntou por que isso acontece?
+                        </p>
+                        <p>
+                            A possibilidade de extrair as informações apenas observando a imagem do gráfico, sem a
+                            necessidade da leitura de textos e dados, é uma das principais finalidades da sua
+                            utilização. Veja um exemplo:
+                        </p>
+                        <figure>
+                            <img src="img/figura_04.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra um gráfico com o título “Sexo”. Do lado direito há uma legenda com as indicações “mulheres” e “homens”. O gráfico é formado por um círculo dividido em duas partes de cores diferentes, sendo a parte maior destacada referente às mulheres e a parte menor referente aos homens, conforme a indicação da legenda. ">
+                            <figcaption>Figura 4 – Gráfico de setores <br>
+                                Fonte: Sesc EJA EAD (2022)
+                            </figcaption>
+                        </figure>
+                        <p>
+                            No gráfico apresentado, de acordo com a legenda, as mulheres são representadas pela cor
+                            vermelha e os homens, pela cor azul, portanto, percebe-se, apenas por meio da visualização
+                            da formação das partes do gráfico, que existem mais mulheres do que homens. Isso ocorre
+                            porque a parte vermelha está notavelmente ocupando um espaço maior no todo, evidenciando a
+                            informação do maior número de mulheres.
+                        </p>
+                        <p>
+                            Os gráficos e as tabelas são recursos estatísticos muito úteis para resumir e apresentar os
+                            resultados obtidos em uma pesquisa. Diariamente, vemos tabelas e gráficos nos mais variados
+                            veículos de comunicação, associadas a assuntos diversos da nossa rotina diária, como
+                            resultados de pesquisas eleitorais, esportes, segurança pública, saúde, trabalho, emprego,
+                            renda, economia, cidadania etc.
+                        </p>
+                        <p>
+                            A partir da solicitação da administração municipal para que a comissão organizadora da
+                            pesquisa apresente os resultados, iniciou-se o processo de organização dos dados, pois a
+                            comissão reconhece a importância que as tabelas e os gráficos têm na interpretação,
+                            visualização e divulgação dos dados. Isso porque esses recursos facilitam e agilizam a
+                            compreensão dos dados por parte do leitor e também viabilizam diversas maneiras de ilustrar
+                            e resumir as informações apresentadas.
+                        </p>
+                        <p>
+                            Agora, o próximo passo da comissão será utilizar esses recursos visuais, por isso, ela
+                            passou a estudar alguns tipos de gráficos, procurando conhecer as principais características
+                            de cada um e seus elementos, a fim de escolher o tipo de gráfico mais adequado de acordo com
+                            os dados a serem representados. Além disso, esse estudo teve como objetivo evitar
+                            interpretações equivocadas dos dados apresentados, que podem ter sido produzidos
+                            involuntariamente – ou até mesmo propositalmente – com erros.
+                        </p>
+                        <p>
+                            Como a pesquisa de Calculópolis foi baseada nas perguntas realizadas no Censo e em pesquisas
+                            de amostras por domicílio, a comissão organizadora foi em busca dos gráficos utilizados na
+                            divulgação dos dados encontrados naquela pesquisa. Nessa busca, constatou-se que os gráficos
+                            mais comuns são os gráficos de barras, colunas e setores.
+                        </p>
+                        <p>
+                            Você sabia que cada um desses gráficos apresenta características específicas e que os
+                            diferentes gráficos são indicados para diferentes tipos de variáveis e para diferentes
+                            objetivos? Que tal visualizar o que a comissão encontrou como resultado de sua pesquisa?
+                        </p>
+                        <p>
+                            Ao pesquisar sobre uma mesma questão que havia no questionário de Calculópolis, a comissão
+                            encontrou no <em>site</em> do IBGE alguns resultados do censo do Brasil apresentados em
+                            gráficos de barras e de colunas. Confira a seguir:
+                        </p>
+                        <figure>
+                            <img src="img/figura_05.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A figura mostra um gráfico de barras horizontais partindo da esquerda para a direita, indicando o número total de domicílios e seus tipos (casa ou apartamento) no Brasil e em cada região do país (Norte, Nordeste, Sudeste, Sul e Centro-Oeste). Cada região forma um bloco com três barras e está separada das demais apresentando tamanhos diferentes.  ">
+                            <figcaption>Figura 5 – Gráfico de barras da amostra de domicílios – 2019 <br>
+
+                                Fonte: Instituto Brasileiro de Geografia e Estatística (2019?)
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/figura_06.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A figura mostra um gráfico de barras horizontais partindo da esquerda para a direita, indicando o número total de domicílios e seus tipos (casa ou apartamento) no Brasil e em cada região do país (Norte, Nordeste, Sudeste, Sul e Centro-Oeste). Cada região apresenta uma única barra e está separada das demais apresentando tamanhos iguais. ">
+                            <figcaption>
+
+                                Figura 6 – Gráfico de barras da amostra de domicílios – 2019 <br>
+
+                                Fonte: Instituto Brasileiro de Geografia e Estatística (2019?)
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM PG2 -->
+            <div class="pagina">
+                <div class="bloco1-pg2">
+                    <div class="container">
+                        <h4>Gráfico de barras </h4>
+                        <p>
+                            No <b>gráfico de barras</b>, podemos notar que os dados foram divididos por regiões e com
+                            legenda de cores para os tipos de domicílios. Percebemos que o tipo de domicílio mais comum
+                            no Brasil é a casa e, a partir dessa constatação, fica demonstrado, como apresenta a
+                            animação a seguir, que a maioria dos brasileiros tem casa própria já paga. É possível
+                            observar também que existe um percentual elevado de brasileiros que moram em imóveis
+                            alugados.
+                        </p>
+                        <p>
+                            Esse tipo de gráfico é mais utilizado para variáveis qualitativas e precisa apresentar um
+                            título, um eixo vertical, que representará os dados observados na variável, e um eixo
+                            horizontal, que deve conter as informações numéricas de contagem, ou seja, as frequências
+                            observadas. As barras são regiões retangulares de tamanho proporcional à frequência de cada
+                            variação e precisam apresentar a mesma largura, e a distância entre elas deve ser sempre a
+                            mesma. Confira a síntese apresentada no GIF a seguir, adaptado do <em>site</em> do Instituto
+                            Brasileiro de Geografia e Estatística (c2023):
+                        </p>
+                        <figure>
+                            <img src="img/gifs/gif_barras.gif" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A animação mostra um gráfico de barras, no qual os elementos para construção do gráfico vão surgindo. As barras estão na cor verde, o eixo vertical (variação, em medidas ou quantidades numéricas) no lado esquerdo está na cor roxa e uma linha horizontal, na parte de baixo, que é o eixo horizontal (escala), está na cor vermelha. No ponto que liga os dois eixos está escrito “origem”. O título do gráfico é “Elementos: gráfico de barras”, e na lateral direita estão os textos “barras”, “tamanhos de acordo com a intensidade de cada variação”, “mesma largura” e “distância constante”.">
+                            <!-- <figcaption>gif
+                                    </figcaption> -->
+                        </figure>
+
+                        <h4>Gráfico de colunas</h4>
+                        <p>
+                            O próximo tipo de gráfico é o <b>gráfico de colunas</b>, que se refere ao número de
+                            domicílios com rede geral ou fossa séptica ligada à rede geral. É possível notar que os
+                            dados foram divididos por regiões e com legenda de cores para diferentes anos observados.
+                            Nese gráfico, os dados são apresentados de forma percentual.
+                        </p>
+                        <figure>
+                            <img src="img/figura_07.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A figura mostra um gráfico de barras vertical, que indica o número total de domicílios que apresentam rede geral ou fossa séptica no Brasil e em cada região do país (Norte, Nordeste, Sudeste, Sul e Centro-Oeste). Cada região forma um bloco com quatro barras referentes aos anos de 2016, 2017, 2018 e 2019, e está separada das demais apresentando tamanhos diferentes. ">
+                            <figcaption>
+
+                                Figura 7 – Gráfico de colunas da amostra de domicílios – 2012-2019 <br>
+
+                                Fonte: Instituto Brasileiro de Geografia e Estatística (2019?)
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Note que a região com menor taxa de domicílios ligados à rede geral é a região Norte,
+                            portanto, é a região que contém um índice baixo de acesso a políticas públicas de saneamento
+                            básico. Já a região Sudeste apresenta os melhores índices no que diz respeito ao acesso à
+                            rede geral. Observa-se também que algumas regiões, como Norte, Sul, Nordeste e Centro-Oeste,
+                            apresentaram melhorias percentuais com o passar dos anos no acesso à rede geral, já a região
+                            Sudeste manteve esse índice estável com o passar do tempo.
+                        </p>
+                        <p>
+                            Esse tipo de gráficos é mais utilizado para variáveis qualitativas e precisa apresentar um
+                            título, um eixo vertical, que deve conter as informações numéricas de contagem, ou seja, as
+                            frequências observadas, e um eixo horizontal, que representará os dados observados na
+                            variável. As colunas são regiões retangulares de altura proporcional à frequência de cada
+                            variação e precisam apresentar a mesma largura, e a distância entre elas deve ser sempre a
+                            mesma. Confira a síntese apresentada no GIF a seguir, adaptado do <em>site</em> do Instituto
+                            Brasileiro de Geografia e Estatística (c2023):
+                        </p>
+                        <figure>
+                            <img src="img/gifs/gif_colunas.gif" class="img-fluid d-block mx-auto my-3"
+                                data-aos="zoom-in"
+                                alt="A animação mostra um gráfico de colunas, no qual os elementos para construção do gráfico vão surgindo. As colunas estão na cor verde, o eixo vertical (escala), no lado esquerdo, está na cor vermelha e a linha horizontal, na parte de baixo, que é o eixo horizontal (variações), está na cor azul. No ponto que liga os dois eixos está escrito “origem”. O título do gráfico é “Elementos: gráfico de colunas” e na lateral direita estão os textos “colunas”, “alturas de acordo com a intensidade de cada variação”, “mesma largura” e “distância constante”.">
+                            <!-- <figcaption>gif
+                                    </figcaption> -->
+                        </figure>
+                        <p>
+                            O primeiro gráfico mostrado é de barras (horizontal) e o segundo gráfico é de colunas
+                            (vertical). Esses gráficos costumam ser utilizados com a finalidade de comparar, entre si,
+                            os dados pesquisados e podem ser utilizados em variáveis na qual o entrevistado pode
+                            escolher mais de uma opção em suas respostas.
+                        </p>
+                        <p>
+                            Conforme o que foi mostrado nas animações, esses gráficos são construídos sobre o plano
+                            cartesiano e, como resultado, você obterá uma figura que lembra um “L”. As barras e as
+                            colunas devem sempre conter a mesma largura, e a distância entre elas deve ser constante.
+                        </p>
+                        <p>
+                            A comissão concluiu que os dados coletados de algumas perguntas poderiam ser representados
+                            tanto em um gráfico de barras quanto em um de colunas, pois a diferença entre esses gráficos
+                            está apenas na forma de apresentação dos dados. Eles são uma representação invertida um do
+                            outro, ou seja, no gráfico de colunas, o valor numérico está no eixo vertical e os elementos
+                            da variável estão no eixo horizontal; no gráfico de barras, o valor numérico está no eixo
+                            horizontal e os elementos da variável estão no eixo vertical.
+                        </p>
+                        <p>
+                            Veja no vídeo a seguir a apresentação dos dados construída pela comissão organizadora da
+                            pesquisa de Calculópolis com gráficos de barras e de colunas.
+                        </p>
+                        <iframe class="ytb" src="https://www.youtube.com/embed/19FD5bSD8hw" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="visually-hidden print">
+                            <p>Vamos analisar os dados levantados pela comissão organizadora da pesquisa de
+                                Calculópolis, representados em gráficos de barras e colunas: </p>
+                            <p>Neste gráfico de colunas, cada coluna representa um tipo de imóvel e está sobre uma linha
+                                horizontal. Já a linha vertical representa a quantidade de imóveis. Assim, pode-se notar
+                                que a maior coluna representa a maior quantidade deste tipo de imóvel, que é a casa, com
+                                41 imóveis, seguido do apartamento, que são 12 imóveis e, por último, os cômodos, que
+                                contam com 2 imóveis. Vemos então que a frequência absoluta da quantidade de respostas
+                                ao tipo de imóvel foi de 55. </p>
+                            <p>Neste gráfico de colunas, vemos os dados referentes à forma de abastecimento de água em
+                                cada domicílio. Nele, a maior coluna, com 44 indicadores, demonstra que a rede geral é a
+                                fonte de abastecimento de água, ou seja, o acesso à água potável, enquanto o poço ou a
+                                nascente na própria propriedade representa 8 imóveis e outras formas de abastecimento
+                                contabilizam 3 imóveis, totalizando 11 moradias em que não é possível ter acesso à
+                                informação relacionada à qualidade do abastecimento utilizado nelas. Assim, é possível
+                                considerar uma política pública para garantir acesso de todas as residências à rede
+                                geral de abastecimento do município. </p>
+                            <p>O próximo gráfico apresenta dados referentes ao número de banheiros existentes nos
+                                domicílios. Podemos observar que a coluna maior representa um banheiro por residência,
+                                enquanto a coluna menor representa zero, ou seja, nenhum banheiro. </p>
+                            <p>Apesar de o número de residências sem acesso a banheiro ser baixo, o dado é preocupante,
+                                pois demonstra que existem pessoas na cidade de Calculópolis que não têm acesso a um
+                                saneamento básico adequado, o que pode acarretar a transmissão de doenças relacionadas
+                                ao contato direto com coliformes fecais ou com esgoto a céu aberto. </p>
+                            <p>Neste outro gráfico, podemos ver dados coletados que se referem a como ocorre a coleta do
+                                lixo domiciliar ou como o descarte desse lixo é realizado. </p>
+                            <p>Podemos ver que a forma mais utilizada para a coleta de lixo é realizada por serviço de
+                                limpeza, ou seja, é aquela em que deixamos as sacolas de lixo em frente a casa para que
+                                a coleta seja realizada apropriadamente. </p>
+                            <p>O gráfico também apresenta o segundo processo de coleta mais utilizado, que é o de
+                                caçamba de serviço de limpeza, muito utilizado em condomínios ou municípios que
+                                disponibilizam caçambas para descarte de lixo e posterior coleta pelo caminhão. </p>
+                            <p>Observe que em cinco residências ocorre o descarte de forma não apropriada, em que o lixo
+                                é enterrado, jogado em terreno baldio ou logradouro, queimado ou tem algum outro
+                                destino. </p>
+                            <p>Aqui, temos outro indicativo da necessidade de implementação de políticas públicas nas
+                                áreas de saneamento básico e de educação, uma vez que é direito do cidadão o acesso às
+                                formas de coleta adequadas do lixo, mas sem dispensar também a conscientização e
+                                formação da população e de suas próximas gerações quanto ao descarte adequado do lixo
+                                domiciliar. </p>
+                            <p>Aqui, temos outro formato de gráfico, o gráfico de barras, que representa, neste caso, a
+                                condição financeira relacionada à forma de aquisição do domicílio, com a variável
+                                apresentada na vertical e a relação numérica na horizontal. </p>
+                            <p>O gráfico indica que a maioria de 25 famílias vive em casas próprias já pagas, mas 24
+                                famílias vivem em domicílios que comprometem parte da renda, como residências alugadas
+                                ou que ainda estão sendo pagas. </p>
+                            <p>Esse dado é importante, pois famílias que comprometem boa parte da renda podem ter
+                                dificuldades financeiras e, assim, chegarem ao ponto de não honrarem seus compromissos
+                                financeiros. </p>
+                            <p>Já neste gráfico, podemos ver dados que representam como ocorre o escoamento de resíduos
+                                do banheiro ou do sanitário. </p>
+                            <p>Observe que a maior coluna indica que a ligação do escoamento é a rede geral de esgoto ou
+                                pluvial, o que é um índice satisfatório para o município de Calculópolis, visto que tal
+                                coleta e destino são adequados aos dejetos humanos. </p>
+                            <p>Podemos ver também que os dados relativos às fossas séptica e rudimentar são considerados
+                                satisfatórios, pois indicam estratégias adequadas aos locais em que a coleta de dejetos
+                                não chega à residência. Entretanto, os outros dados são indicativos da necessidade de
+                                atenção às políticas públicas de saneamento básico, pois a forma não apropriada de
+                                descarte desses dejetos pode causar doenças, representando assim uma preocupação para a
+                                cidade. </p>
+                        </div>
+                        <h4>Gráfico de setores </h4>
+                        <p>
+                            Para dar continuidade à organização e à apresentação dos dados, a equipe coletou informações
+                            sobre o <b>gráfico de setores</b>, procurando encontrar as características desse tipo de
+                            gráfico. Muito conhecido como gráfico de <em>pizza</em>, o gráfico de setores é muito comum
+                            quando se tem o objetivo de comparar um elemento observado com o todo de uma pesquisa.
+                        </p>
+                        <p>
+                            O exemplo a seguir apresenta qual o percentual da população que reside no Brasil é homem ou
+                            mulher. A cor verde indica a quantidade de mulheres no Brasil (51,1%) e a cor laranja indica
+                            a quantidade de homens no Brasil (48,9%), sendo este percentual menor em relação às
+                            mulheres.
+                        </p>
+                        <figure>
+                            <img src="img/figura_08.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra um gráfico em forma circular dividido em duas partes, representando, em dados percentuais, a população residente no Brasil de acordo com o sexo. A cor verde indica a quantidade de mulheres no Brasil, representando 51,1% do total e a cor laranja indica a quantidade de homens no Brasil, representando 48,9%. ">
+                            <figcaption>Figura 8 – Gráfico de setores da amostra de domicílios – 2021 <br>
+                                Fonte: IBGEeduca (2021?)
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Esse tipo de gráfico é recomendado para a visualização de informações em que as respostas
+                            foram dadas de forma única, ou seja, nas variáveis em que o entrevistado pode escolher
+                            apenas uma alternativa. Os gráficos de setores (ou de <em>pizza</em>) são representados por
+                            círculos divididos proporcionalmente, de acordo com os dados da informação a ser
+                            representada. Os valores são expressos em números (frequências absolutas) ou em percentuais
+                            (frequências relativas). Como o círculo corresponde ao total, a soma de todos os percentuais
+                            representados pelas fatias deve ser igual a 100%.
+                        </p>
+                        <p>
+                            Confira o GIF a seguir, adaptado do <em>site</em> do Instituto Brasileiro de Geografia e
+                            Estatística (c2023):
+                        </p>
+                        <img src="img/gifs/gif_setores.gif"
+                            alt="A animação mostra um gráfico de setores com o título “Elementos: gráfico de setores”. No meio, há um círculo com as cores laranja, em 75% dele, aparecendo e desaparecendo, com o texto “ângulos proporcionais às porcentagens representadas”; e azul, em 25% do círculo, também com o texto “ângulos proporcionais às porcentagens representadas”. Na lateral esquerda, “formato circular” está escrito em roxo e, na lateral direita, há um quadrado verde vazado e dentro dele há dois quadrados, um azul e outro laranja. Abaixo está o texto: “legenda com os tipos de dados representados, que pertencem a uma única categoria”."
+                            class="img-fluid d-block mx-auto">
+                        <p>
+                            A comissão concluiu que alguns dados coletados poderiam ser representados com o gráfico de
+                            setores, pois é importante que os elementos observados sejam comparados com o todo da
+                            pesquisa. Por isso, os dados foram apresentados com percentuais. Entenda melhor assistindo
+                            ao vídeo a seguir:
+                        </p>
+                        <iframe class="ytb" src="https://www.youtube.com/embed/4H77GXcpv2k" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="visually-hidden print">
+                            <p>Vamos analisar os dados levantados pela comissão organizadora da pesquisa de
+                                Calculópolis, representados em gráficos de setores. </p>
+                            <p>Neste gráfico de setores, podemos ver informações sobre a quantidade de pessoas
+                                residentes nas moradias da amostra coletada na pesquisa, separadas em fatias
+                                correspondentes ao percentual de moradores da mesma residência. Veja que a maior fatia é
+                                a de cor verde, que corresponde a 4 moradores, totalizando 27% da pesquisa. Podemos
+                                observar também que as duas menores fatias, ambas de 2%, correspondem a 1 e a 7
+                                moradores na mesma residência. </p>
+                            <p>Agora, podemos conferir o gráfico sobre a quantidade de mulheres moradoras na mesma
+                                residência. </p>
+                            <p>Veja que a maior fatia, de 42%, corresponde a 2 mulheres residentes na mesma casa,
+                                enquanto a menor fatia, de 2%, corresponde a nenhuma mulher na residência. </p>
+                            <p>Já neste gráfico, podemos conferir a quantidade de homens moradores na mesma residência.
+                                Observamos que, ao contrário do gráfico anterior, a maior fatia, de 40%, corresponde a
+                                um morador homem. </p>
+                            <p>Agora, observamos o gráfico que diz respeito à quantidade de pessoas que residem nas
+                                moradias e são menores de idade. </p>
+                            <p>A maioria das residências apresenta um morador considerado menor de idade, pois, somando
+                                todas as fatias, temos 80% de residências com menores de idade moradores no local.
+                                Observa-se também que, em algumas residências, há um número bastante elevado de
+                                crianças. </p>
+                            <p>Esses dados resultam na necessidade de implementação de políticas públicas voltadas à
+                                ocupação de crianças e adolescentes com atividades educativas, esporte, cultura e lazer,
+                                para que estejam afastadas de práticas nocivas, como a situação de rua, o envolvimento
+                                com crimes, a prostituição ou, ainda, o abuso do trabalho infantil. </p>
+                        </div>
+                    </div>
+                    <img src="img/div_bg9.png" class="bloco-divisoria no-print" alt="">
+                </div>
+
+                <div class="bloco2-pg2">
+
+                    <!-- <img src="img/elem_float_2.png" class="no-print rellax-direita-big relax-top1" data-rellax-speed="4"> -->
+
+                    <div class="container">
+                        <h4>Gráficos inadequados</h4>
+                        <p>Você já se deu conta de quantos gráficos são apresentados com inadequações em jornais e/ou
+                            revistas? </p>
+                        <p>As informações visuais favorecem a leitura mais rápida e de modo claro, embora ler mais
+                            rapidamente não significa ler de modo desatento. Assim como não desejamos ser prejudicados,
+                            igualmente não devemos prejudicar o leitor quando formos nós os divulgadores da informação.
+                        </p>
+                        <p>Estudar diferentes tipos de gráficos proporciona conhecermos alguns equívocos, como os na
+                            escala errada dos eixos ou não constantes, eixos que não iniciam em zero, informações sem
+                            fontes confiáveis, elementos gráficos desnecessários e que dificultam a visualização da
+                            informação ou até mesmo um gráfico tendencioso, com a intenção de passar uma informação que
+                            não é a correta. </p>
+                        <p>Oferecer ao público em geral formas de visualizar informações úteis e confiáveis é um serviço
+                            que demanda uma atitude responsável, conduzida por princípios éticos e solidários. É
+                            importante ter em mente que, do outro lado, há um espectador/leitor sendo impactado pela
+                            informação oferecida. </p>
+                        <p>Analise a seguir algumas situações em que os gráficos foram apresentados inadequadamente para
+                            a compreensão de quem os lê: </p>
+                        <p>Clique ou toque para visualizar o conteúdo.</p>
+                        <div class="accordion painel-gaitinha" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Gráficos em que o eixo vertical não começa em zero e com a escala dos eixos
+                                        inadequada
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Alguns gráficos têm o início do eixo vertical estabelecido por um valor
+                                            diferente de zero e isso impacta a visualização, superestimada, da variação
+                                            dos valores. Quem usa esse recurso pode estar propondo uma alternativa para
+                                            explicar melhor o crescimento e o decrescimento dos valores ou pode, também,
+                                            superestimar uma diferença entre valores que, no contexto da pesquisa, não é
+                                            tão expressiva.
+                                        </p>
+                                        <figure>
+                                            <img src="img/figura_09.png" class="img-fluid d-block mx-auto my-3"
+                                                data-aos="zoom-in" alt="">
+                                            <figcaption>Figura 9 – Gráfico de barras sobre o desemprego <br>
+
+                                                Fonte: Rodrigues (2016)
+                                            </figcaption>
+                                        </figure>
+                                        <p>É possível notar algumas inadequações nesse gráfico, como supervalorização no
+                                            percentual de desemprego no Brasil, pois o percentual é menor que outros
+                                            países, porém a coluna está maior, apresentando desproporcionalidade entre
+                                            as colunas. Uma sugestão seria apresentar os dois eixos, tanto na vertical
+                                            quanto na horizontal. As alturas e os comprimentos dos eixos devem ser
+                                            proporcionais entre si, possibilitando a comparação visual. O espaçamento
+                                            entre uma escala e outra deve ter a mesma largura e a distância entre elas
+                                            deve ser constante.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Gráficos com escalas inapropriadas
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <figure>
+                                            <img src="img/figura_10.png" class="img-fluid d-block mx-auto my-3"
+                                                data-aos="zoom-in"
+                                                alt="A imagem mostra um gráfico de colunas do crescimento da economia. No lado esquerdo, na vertical, consta o texto “porcentagem de países” e os números, de baixo para cima: 0.00, 0.05, 0.10, 0.15 e 0.20. Na horizontal, há uma linha reta que mostra o crescimento. Nessa linha estão os seguintes números, da esquerda para a direita: -5, 0, 5 e 10. O gráfico contém 19 colunas na cor vermelha com diferentes alturas, contornadas por uma linha de cor amarela. A imagem destaca a posição do Brasil no gráfico, sendo a coluna em vermelho que o representa na horizontal posicionada na marca 1 e a da vertical posicionada no marco 0.15.  ">
+                                            <figcaption>Figura 10 – Gráfico do crescimento da economia <br>
+
+                                                Fonte: Khan Academy (2021)
+                                            </figcaption>
+                                        </figure>
+                                        <p>
+                                            O gráfico da figura 10 apresenta um caso em que não é possível definir
+                                            claramente as escalas, o que impacta diretamente a interpretação das
+                                            informações que ele pretende passar aos leitores. No gráfico, observa-se que
+                                            os percentuais de crescimento da economia não são facilmente identificados
+                                            nem apresentam exatidão, como é proposta nas pesquisas estatísticas. Também
+                                            não é possível identificar quais são os outros países compreendidos na
+                                            comparação além do Brasil.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Gráficos com legendas que não estão claras
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <figure>
+                                            <img src="img/figura_11.png" class="img-fluid d-block mx-auto my-3"
+                                                data-aos="zoom-in"
+                                                alt="A figura apresenta um gráfico de linhas com o eixo horizontal indicando os anos a partir de 2003 até 2013. Sobre cada ano segue uma linha com a taxa referente àquele ano, demonstrando a evolução ano a ano. As taxas estão interligadas por uma única linha. ">
+                                            <figcaption>
+                                                Figura 11 – Gráfico da evolução das taxas de homicídio de mulheres <br>
+                                                Fonte: Khan Academy (2021)
+                                            </figcaption>
+                                        </figure>
+                                        <p>
+                                            No gráfico apresentado para elucidar a evolução das taxas de homicídio de
+                                            mulheres não há legenda, ou seja, não se sabe quais informações estão sendo
+                                            utilizadas em cada um dos eixos do gráfico. Dessa forma, os números
+                                            dispostos na sequência da linha não favorecem o entendimento do que esses
+                                            dados refletem, em quais unidades de medidas eles estão e qual informação
+                                            eles pretendem transmitir.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Gráficos que não apresentam informações importantes
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+
+                                        <figure>
+                                            <img src="img/figura_12.png" class="img-fluid d-block mx-auto my-3"
+                                                data-aos="zoom-in"
+                                                alt="A figura mostra um gráfico de barras vertical com blocos indicando o total, sexo feminino e sexo masculino, referente a cada um dos itens indicados (falta de apoio dos partidos políticos, falta de interesse por política, dificuldade de concorrer com um homem, falta de apoio da família, tempo dedicado às tarefas domésticas, outro e não respondeu).  ">
+                                            <figcaption>Figura 12 – Gráfico “Para você, qual o principal motivo que leva
+                                                uma mulher a não se candidatar para um cargo político?” <br>
+                                                Fonte: Khan Academy (2021)
+                                            </figcaption>
+                                        </figure>
+                                        <p>
+                                            Na figura 12, o gráfico omite informações extremamente relevantes para a
+                                            leitura e interpretação dos dados. Esse problema ocorre frequentemente nos
+                                            meios de comunicação, os quais esquecem ou omitem informações como a fonte,
+                                            a data da realização da pesquisa, o público-alvo, entre outras.
+                                        </p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Gráficos de setores nos quais o total não soma 100%
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Uma das principais características de um gráfico de setores é expor
+                                            visualmente a relação entre as partes e o todo. A proporção entre as partes
+                                            é estabelecida pelo tamanho da abertura (ângulo) de cada setor circular. Não
+                                            raro, é possível ver gráficos de setores em que a soma dos valores de cada
+                                            setor ultrapassa 100%.
+                                        </p>
+                                        <figure>
+                                            <img src="img/figura_13.png" class="img-fluid d-block mx-auto my-3"
+                                                data-aos="zoom-in"
+                                                alt="A imagem mostra gráfico de setores com quatro subdivisões: a maior, com 88%, diz respeito a vídeos, depois há uma com 69%, que se refere a sites, outra com 15% indicando e-mails e a última, com 5%, referindo-se a compras. ">
+                                            <figcaption>Figura 13 – Como os jovens acessam a Internet pelo celular <br>
+
+                                                Fonte: Cevada et al (2020)
+                                            </figcaption>
+                                        </figure>
+
+                                        <p>
+                                            O gráfico apresenta o que os jovens acessam na Internet pelo computador,
+                                            porém, a soma de cada uma das subdivisões não pode ultrapassar o total de
+                                            100% e, como se pode verificar, a soma total dos percentuais é igual a 177%.
+                                            Isso demonstra inadequação no gráfico utilizado. Uma sugestão seria
+                                            substituir esse gráfico por um de colunas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visually-hidden print">
+                            <h4>Gráficos em que o eixo vertical não começa em zero e com a escala dos eixos inadequada
+                            </h4>
+                            <p>Alguns gráficos têm o início do eixo vertical estabelecido por um valor diferente de zero
+                                e isso impacta a visualização, superestimada, da variação dos valores. Quem usa esse
+                                recurso pode estar propondo uma alternativa para explicar melhor o crescimento e o
+                                decrescimento dos valores ou pode, também, superestimar uma diferença entre valores que,
+                                no contexto da pesquisa, não é tão expressiva.</p>
+
+                            <h4>Gráficos com escalas inapropriadas </h4>
+                            <figure>
+                                <img src="img/figura_10.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                    alt="A imagem mostra um gráfico de colunas do crescimento da economia. No lado esquerdo, na vertical, consta o texto “porcentagem de países” e os números, de baixo para cima: 0.00, 0.05, 0.10, 0.15 e 0.20. Na horizontal, há uma linha reta que mostra o crescimento. Nessa linha estão os seguintes números, da esquerda para a direita: -5, 0, 5 e 10. O gráfico contém 19 colunas na cor vermelha com diferentes alturas, contornadas por uma linha de cor amarela. A imagem destaca a posição do Brasil no gráfico, sendo a coluna em vermelho que o representa na horizontal posicionada na marca 1 e a da vertical posicionada no marco 0.15.  ">
+                                <figcaption>Figura 10 – Gráfico do crescimento da economia <br>
+                                    Fonte: Khan Academy (2021)
+                                </figcaption>
+                            </figure>
+                            <p>
+                                O gráfico da figura 10 apresenta um caso em que não é possível definir claramente as
+                                escalas, o que impacta diretamente a interpretação das informações que ele pretende
+                                passar aos leitores. No gráfico, observa-se que os percentuais de crescimento da
+                                economia não são facilmente identificados nem apresentam exatidão, como é proposta nas
+                                pesquisas estatísticas. Também não é possível identificar quais são os outros países
+                                compreendidos na comparação além do Brasil.
+                            </p>
+                            <h4>Gráficos com legendas que não estão claras </h4>
+                            <figure>
+                                <img src="img/figura_11.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                    alt="A figura apresenta um gráfico de linhas com o eixo horizontal indicando os anos a partir de 2003 até 2013. Sobre cada ano segue uma linha com a taxa referente àquele ano, demonstrando a evolução ano a ano. As taxas estão interligadas por uma única linha. ">
+                                <figcaption>
+                                    Figura 11 – Gráfico da evolução das taxas de homicídio de mulheres <br>
+                                    Fonte: Khan Academy (2021)
+                                </figcaption>
+                            </figure>
+                            <p>
+                                No gráfico apresentado para elucidar a evolução das taxas de homicídio de mulheres não
+                                há legenda, ou seja, não se sabe quais informações estão sendo utilizadas em cada um dos
+                                eixos do gráfico. Dessa forma, os números dispostos na sequência da linha não favorecem
+                                o entendimento do que esses dados refletem, em quais unidades de medidas eles estão e
+                                qual informação eles pretendem transmitir.
+                            </p>
+                            <h4>Gráficos que não apresentam informações importantes</h4>
+                            <figure>
+                                <img src="img/figura_12.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                    alt="A figura mostra um gráfico de barras vertical com blocos indicando o total, sexo feminino e sexo masculino, referente a cada um dos itens indicados (falta de apoio dos partidos políticos, falta de interesse por política, dificuldade de concorrer com um homem, falta de apoio da família, tempo dedicado às tarefas domésticas, outro e não respondeu).  ">
+                                <figcaption>Figura 12 – Gráfico “Para você, qual o principal motivo que leva uma mulher
+                                    a não se candidatar para um cargo político?” <br>
+                                    Fonte: Khan Academy (2021)
+                                </figcaption>
+                            </figure>
+                            <p>
+                                Na figura 12, o gráfico omite informações extremamente relevantes para a leitura e
+                                interpretação dos dados. Esse problema ocorre frequentemente nos meios de comunicação,
+                                os quais esquecem ou omitem informações como a fonte, a data da realização da pesquisa,
+                                o público-alvo, entre outras.
+                            </p>
+                            <h4>Gráficos de setores nos quais o total não soma 100%</h4>
+                            <p>
+                                Uma das principais características de um gráfico de setores é expor visualmente a
+                                relação entre as partes e o todo. A proporção entre as partes é estabelecida pelo
+                                tamanho da abertura (ângulo) de cada setor circular. Não raro, é possível ver gráficos
+                                de setores em que a soma dos valores de cada setor ultrapassa 100%.
+                            </p>
+                            <figure>
+                                <img src="img/figura_13.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                    alt="A imagem mostra gráfico de setores com quatro subdivisões: a maior, com 88%, diz respeito a vídeos, depois há uma com 69%, que se refere a sites, outra com 15% indicando e-mails e a última, com 5%, referindo-se a compras. ">
+                                <figcaption>Figura 13 – Como os jovens acessam a Internet pelo celular <br>
+
+                                    Fonte: Cevada et al (2020)
+                                </figcaption>
+                            </figure>
+
+                            <p>
+                                O gráfico apresenta o que os jovens acessam na Internet pelo computador, porém, a soma
+                                de cada uma das subdivisões não pode ultrapassar o total de 100% e, como se pode
+                                verificar, a soma total dos percentuais é igual a 177%. Isso demonstra inadequação no
+                                gráfico utilizado. Uma sugestão seria substituir esse gráfico por um de colunas.
+                            </p>
+
+                        </div>
+                        <p>
+                            Esses foram alguns exemplos de distorções que podemos analisar para verificar a veracidade
+                            dos gráficos abordando temas do nosso cotidiano.
+                        </p>
+                        <p>
+                            Com esses novos conhecimentos, encerramos mais um módulo do nosso curso e esperamos que esse
+                            aprendizado tenha sido importante para você. Até logo!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- PG3 -->
+
+
+            <!-- FIM PG3 -->
+            <div class="pagina">
+                <div class="bloco1-pg3">
+                    <div class="container">
+                        <div class="d-flex align-items-center my-3">
+                            <img src="img/ico_praticar2.png" alt="">
+                            <h1 class="mx-3">Vamos praticar? </h1>
+                        </div>
+
+                        <p>1. A pesquisa realizada em Calculópolis obteve dados referentes à renda familiar de cada
+                            domicílio. Essas informações foram utilizadas para compor a seguinte tabela de frequência:
+                        </p>
+                        <table class="sesc table-responsive">
+                            <thead>
+                                <tr>
+                                    <td>Renda familiar </td>
+                                    <td>Frequência absoluta </td>
+                                    <td>Frequência relativa </td>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>Até 1 salário mínimo </td>
+                                <td>14</td>
+                                <td>14/55 ou 25% </td>
+                            </tr>
+                            <tr>
+                                <td>De 1 a 2 salários mínimos </td>
+                                <td>10</td>
+                                <td>10/55 ou 18% </td>
+                            </tr>
+                            <tr>
+                                <td>De 2 a 3 salários mínimos </td>
+                                <td>18</td>
+                                <td>18/55 ou 33% </td>
+                            </tr>
+                            <tr>
+                                <td>De 3 a 4 salários mínimos </td>
+                                <td>2</td>
+                                <td>2/55 ou 4% </td>
+                            </tr>
+                            <tr>
+                                <td>De 4 a 5 salários mínimos </td>
+                                <td>4</td>
+                                <td>4/55 ou 7% </td>
+                            </tr>
+                            <tr>
+                                <td>De 5 a 6 salários mínimos </td>
+                                <td>3</td>
+                                <td>3/55 ou 5% </td>
+                            </tr>
+                            <tr>
+                                <td>De 6 a 7 salários mínimos </td>
+                                <td>2</td>
+                                <td>2/55 ou 4% </td>
+                            </tr>
+                            <tr>
+                                <td>De 8 a 9 salários mínimos </td>
+                                <td>2</td>
+                                <td>2/55 ou 4% </td>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td>55</td>
+                                <td>1 ou 100% </td>
+                            </tr>
+                        </table>
+
+                        <div class="esquemaDaBru">
+                            <p class="enunciado" tabindex="0">Considerando esses valores, assinale a resposta correta:
+                            </p>
+                            <button class="alt-e btn-sesc" title="alternativa: ">a) Mais da metade dos domicílios tem
+                                renda de dois a três salários mínimos. </button>
+                            <button class="alt-c btn-sesc" title="alternativa: ">b) Quarenta e dois domicílios têm renda
+                                de até três salários mínimos. </button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">c) Doze domicílios têm renda de mais de
+                                cinco salários mínimos. </button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">d) Os domicílios que apresentam menor
+                                frequência têm renda de quatro a cinco salários. </button>
+                            <div class="feedbacks">
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! A quantidade mencionada não representa metade dos domicílios, pois seria
+                                    preciso considerar mais algumas faixas de salário para contemplar a metade. </p>
+                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-check"></i> Parabéns!
+                                    Você somou a quantidade de domicílios das três primeiras faixas de salário.</p>
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! A quantidade dos domicílios que têm renda superior a cinco salários é
+                                    sete. </p>
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! Os domicílios que apresentam menor frequência têm as faixas salariais de
+                                    três a quatro salários, de seis a sete salários e de oito a nove salários. </p>
+                            </div>
+                        </div>
+                        <div class="visually-hidden print">
+                            <p>Gabarito: b) </p>
+                        </div>
+                        <br>
+                        <p>2. Um dos funcionários da prefeitura de Calculópolis, precisou da informação referente à
+                            origem do domicílio questionada na pesquisa, porém, os organizadores não tinham finalizado a
+                            tabulação. Como esse funcionário precisava da informação da frequência relativa, ele decidiu
+                            calcular. Ajude-o calculando os valores correspondentes a cada item. Observe a tabela. </p>
+                        <div class="table-responsive">
+                            <table class="sesc">
+                                <thead>
+                                    <tr>
+                                        <td>Renda familiar </td>
+                                        <td>Frequência absoluta </td>
+                                        <td>Frequência relativa </td>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td>Alugado</td>
+                                    <td>12</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Cedido de outra forma </td>
+                                    <td>4</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Outra condição </td>
+                                    <td>2</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Própria - Ainda pagando </td>
+                                    <td>12</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Próprio - Já pago </td>
+                                    <td>25</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Total</td>
+                                    <td>55</td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="esquemaDaBru">
+                            <p class="enunciado" tabindex="1">Local de trabalho </p>
+                            <button class="alt-c btn-sesc" title="alternativa: ">a) 45,5% – 21,8% – 21,8% – 7,3% – 3,6%
+                            </button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">b) 25,8% – 47,2% – 3,5% – 1,02% – 17%
+                            </button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">c) 20,3% – 71,4% – 9,2% – 26,9% – 3,4%
+                            </button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">d) 45,5% – 48,7% – 3,8% – 1,08% – 7,9%
+                            </button>
+                            <div class="feedbacks">
+                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-check"></i> Parabéns!
+                                    Você calculou corretamente. </p>
+
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! Para calcular a frequência relativa, você precisa utilizar a seguinte
+                                    fórmula: <br>
+
+                                    Frequência relativa do dado = frequência absoluta total de elementos da amostra</p>
+
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! Para calcular a frequência relativa, você precisa utilizar a seguinte
+                                    fórmula: <br>
+
+                                    Frequência relativa do dado =frequência absoluta total de elementos da amostra </p>
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! Para calcular a frequência relativa, você precisa utilizar a seguinte
+                                    fórmula: <br>
+
+                                    Frequência relativa do dado =frequência absoluta total de elementos da amostra </p>
+
+                            </div>
+                        </div>
+                        <div class="visually-hidden print">
+                            <p>Gabarito: a) </p>
+                        </div>
+                        <br><br>
+                        <p>3)
+                            As notas obtidas por 30 estudantes de uma turma em uma prova de matemática estão
+                            relacionadas a seguir:
+                        </p>
+
+                        <div class="table-responsive">
+                            <table class="sesc">
+                                <tr>
+                                    <td>6,5 </td>
+                                    <td>3,2 </td>
+                                    <td>9,3 </td>
+                                    <td>4,2 </td>
+                                    <td>7,4 </td>
+                                    <td>1,2 </td>
+                                </tr>
+                                <tr>
+                                    <td>8,6 </td>
+                                    <td>3,5 </td>
+                                    <td>8,0 </td>
+                                    <td>3,8 </td>
+                                    <td>1,7 </td>
+                                    <td>1,7 </td>
+                                </tr>
+                                <tr>
+                                    <td>2,1 </td>
+                                    <td>4,8 </td>
+                                    <td>5,4 </td>
+                                    <td>3,3 </td>
+                                    <td>3,2 </td>
+                                    <td>6,4 </td>
+                                </tr>
+                                <tr>
+                                    <td>9,1 </td>
+                                    <td>5,3 </td>
+                                    <td>1,9 </td>
+                                    <td>4,5 </td>
+                                    <td>5,5 </td>
+                                    <td>6,1 </td>
+                                </tr>
+                                <tr>
+                                    <td>7,0 </td>
+                                    <td>2,1 </td>
+                                    <td>6,2 </td>
+                                    <td>5,6 </td>
+                                    <td>4,8 </td>
+                                    <td>4,7 </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="content-game">
+
+                            <div class="container-fluid game-body no-print" style="padding:0;">
+                                <div class="row">
+                                    <div class="col-10 align-self-start d-block m-auto">
+                                        <div class="row game-descricao-img"><img src="img/pg2-praticar2-ico.png"
+                                                style="width: 150px;" alt=""></div>
+                                        <div class="row game-descricao">
+                                            <p>Agrupando as notas em seis intervalos, a partir da nota 1,0, foi
+                                                construída a seguinte tabela. Arraste para ela as informações que estão
+                                                faltando. </p>
+                                        </div>
+                                    </div>
+                                    <div id="slots" class="col-12 ">
+                                        <br>
+                                        <div class="row">
+                                            <div class="table-responsive">
+                                                <table class="sesc">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Notas</td>
+                                                            <td>Frequência absoluta </td>
+                                                            <td>Frequência relativa </td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tr>
+                                                        <td>De 1 a 2,5 </td>
+                                                        <td id="slot-9"></td>
+                                                        <td>16,7% </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>De 2,5 a 4 </td>
+                                                        <td id="slot-1"></td>
+                                                        <td>16,7% </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>De 4 a 5,5 </td>
+                                                        <td id="slot-2"></td>
+                                                        <td id="slot-3"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>De 5,5 a 7 </td>
+                                                        <td id="slot-4"></td>
+                                                        <td id="slot-5"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>De 7 a 8,5 </td>
+                                                        <td id="slot-6"></td>
+                                                        <td>6,6% </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>De 8,5 a 10 </td>
+                                                        <td id="slot-7"></td>
+                                                        <td id="slot-8"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Total</td>
+                                                        <td>30</td>
+                                                        <td>100% </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <h5>Frequência </h5>
+                                    <div id="cardPile" class="game-itens-container">
+                                        <div id="card-1" data-target="slot-1"><button type="button"
+                                                class="btn btn-secondary">5</div></button>
+                                        <div id="card-2" data-target="slot-2"><button type="button"
+                                                class="btn btn-secondary">9</div></button>
+                                        <div id="card-3" data-target="slot-3"><button type="button"
+                                                class="btn btn-secondary">30%</div></button>
+                                        <div id="card-4" data-target="slot-4"><button type="button"
+                                                class="btn btn-secondary">6</div></button>
+                                        <div id="card-1" data-target="slot-9"><button type="button"
+                                                class="btn btn-secondary">5</div></button>
+                                        <div id="card-5" data-target="slot-5"><button type="button"
+                                                class="btn btn-secondary">20%</div></button>
+                                        <div id="card-6" data-target="slot-6"><button type="button"
+                                                class="btn btn-secondary">2</div></button>
+                                        <div id="card-7" data-target="slot-7"><button type="button"
+                                                class="btn btn-secondary">3</div></button>
+                                        <div id="card-8" data-target="slot-8"><button type="button"
+                                                class="btn btn-secondary">10%</div></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade no-print" id="bgmodal-acerto" tabindex="-1"
+                            aria-labelledby="bgmodal-passou" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i>
+                                            Parabéns, resposta correta! </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4">
+                                                <img src="img/acerto.png" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="col-12 col-lg-8">
+                                                <p>Parabéns! Você calculou corretamente.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="modal fade no-print" id="bgmodal-erro" tabindex="-1"
+                            aria-labelledby="bgmodal-passou" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-danger">
+                                        <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times    "></i>
+                                            Atenção! </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4">
+                                                <img src="img/erro.png" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="col-12 col-lg-8">
+                                                <p>Atenção! Resposta incorreta.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visually-hidden print">
+                            <p>Gabarito: Frequência absoluta: 5 – 5 – 9 – 6 – 2 – 3<br>
+                                Frequência relativa – 30% - 20% - 10% </p>
+                        </div>
+                        <br><br>
+                        <p>4. O gráfico a seguir reflete a produção de peças de uma determinada empresa nos primeiros
+                            cinco dias do mês. De acordo com o gráfico, em que dia a empresa produziu o maior número de
+                            peças? </p>
+
+                        <figure>
+                            <img src="img/figura_14.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra um gráfico de colunas demonstrando a quantidade de peças produzidas por uma determinada empresa nos primeiros cinco dias do mês, evidenciando que, no dia 4 houve a produção do maior número de peças. ">
+                            <figcaption>Figura 14 – Peças produzidas <br>
+                                Fonte: Projeto Agatha (s. d.)
+                            </figcaption>
+                        </figure>
+                        <div class="esquemaDaBru">
+                            <p class="enunciado no-print" tabindex="1">Local de trabalho </p>
+                            <button class="alt-e btn-sesc" title="alternativa: ">a) Dia 1 </button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">b) Dia 2 </button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">c) Dia 3 </button>
+                            <button class="alt-c btn-sesc" title="alternativa: ">d) Dia 4 </button>
+
+                            <div class="feedbacks">
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! De acordo com o gráfico, o dia 1 foi o de menor produção de peças. </p>
+
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i>Resposta
+                                    incorreta! De acordo com o gráfico, o dia 2 foi o segundo dia de menor produção de
+                                    peças. </p>
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i>Resposta
+                                    incorreta! De acordo com o gráfico, o dia 3 foi o terceiro dia de menor produção de
+                                    peças. </p>
+                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-check"></i>Resposta
+                                    correta! Segundo o gráfico, o dia 4 foi o de maior produção de peças. </p>
+                            </div>
+                        </div>
+                        <div class="visually-hidden print">
+                            <p>Gabarito: d)</p>
+                        </div>
+                        <p>5. O gráfico da figura a seguir demonstra a receita de uma determinada empresa em relação à
+                            venda dos produtos A, B e C: </p>
+
+                        <figure>
+                            <img src="img/figura_15.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra um gráfico de barras laterais demonstrando a quantidade de receita gerada por número de peças produzidas por uma determinada empresa, evidenciando que o produto A teve a maior receita. ">
+                            <figcaption>Figura 15 – Receita <br>
+
+                                Fonte: Vianna (c2002-2023)
+                            </figcaption>
+                        </figure>
+                        <div class="esquemaDaBru">
+                            <p class="enunciado" tabindex="1">Realizando a interpretação das informações, é correto
+                                afirmar que a maior receita é referente a qual produto? </p>
+                            <button class="alt-c btn-sesc" title="alternativa: ">a) Produto A.</button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">b) Produto B.</button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">c) Produto C.</button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">d) Produto D.</button>
+                            <div class="feedbacks">
+                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-check"></i>Resposta
+                                    correta! De acordo com o gráfico, o produto A teve a maior receita por produção de
+                                    peças. </p>
+
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! De acordo com o gráfico, o produto B não teve a maior produção de peças.
+                                </p>
+
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Tente
+                                    novamente. Resposta incorreta! De acordo com o gráfico, o produto C não teve a maior
+                                    produção de peças.</p>
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! De acordo com o gráfico, existe uma alternativa verdadeira.</p>
+
+                            </div>
+                        </div>
+                        <div class="visually-hidden print">
+                            <p>Gabarito: a)</p>
+                        </div>
+                        <br><br>
+                        <p>
+                            6. O gráfico de setores a seguir informa os percentuais de gastos domésticos de uma família
+                            da cidade de Calculópolis, que tem como renda total um salário de R$ 3.000. Com base nas
+                            informações do gráfico e de posse do valor do salário da família, qual é o valor em reais
+                            comprometido da família com alimentação?
+                        </p>
+                        <figure>
+                            <img src="img/figura_16.png" class="img-fluid d-block mx-auto my-3" data-aos="zoom-in"
+                                alt="A imagem mostra um gráfico de setores demonstrando as seguintes quantidades: 38% alimentação, 23% aluguel, 15% roupas, 12% combustível, 8% recreio e 4% poupança. ">
+                            <figcaption>Figura 16 – Gráfico de setores <br>
+
+                                Fonte: Tomson (s. d.)
+                            </figcaption>
+                        </figure>
+                        <div class="esquemaDaBru">
+                            <p class="enunciado" tabindex="1">Realizando a interpretação das informações, é correto
+                                afirmar que a maior receita é referente a qual produto? </p>
+                            <button class="alt-e btn-sesc" title="alternativa: ">a) R$ 690,00 </button>
+                            <button class="alt-c btn-sesc" title="alternativa: ">b) R$ 1.140,00 </button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">c) R$ 450,00 </button>
+                            <button class="alt-e btn-sesc" title="alternativa: ">d) R$ 360,00 </button>
+                            <div class="feedbacks">
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! Esse valor corresponde a 23%, que se refere ao gasto com aluguel.</p>
+
+
+                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-check"></i>Resposta
+                                    correta! Você interpretou corretamente o gráfico e realizou o cálculo referente à
+                                    porcentagem de 38% do salário.</p>
+
+
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! Esse valor corresponde a 15%, que se refere ao gasto com roupas.</p>
+                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"
+                                    style="background-color: #fff;padding: 10px;"><i class="fas fa-times"></i> Resposta
+                                    incorreta! Esse valor corresponde a 12%, que se refere ao gasto com combustível.</p>
+
+                            </div>
+                        </div>
+                        <div class="visually-hidden print">
+                            <p>Gabarito: b)</p>
+                        </div>
+                        <br><br>
+                        <div class="game-associar-colunas no-print nao-imprimir">
+                            <p><strong>Clique</strong> ou <strong>toque</strong> em um botão da coluna numerada e depois
+                                escolha um botão da coluna com o símbolo de <i class="fas fa-question"></i> com a opção
+                                que achar a mais correta. </p>
+                            <div class="row">
+                                <div class="col-8 flexs">
+                                    <button data-resp="1" class="item item1">
+                                        <img src="img/figura_17_1.png" alt="">
+                                    </button>
+
+                                    <button data-resp="2" class="item item2">
+                                        <img src="img/figura_17_2.png" alt="">
+                                    </button>
+
+                                    <button data-resp="3" class="item item3">
+                                        <img src="img/figura_17_3.png" alt="">
+                                    </button>
+
+                                    <button data-resp="4" class="item item4">
+                                        <img src="img/figura_17_4.png" alt="">
+                                    </button>
+
+                                </div>
+                                <div class="col-4 flexs mt-3">
+                                    <button type="button" data-resp="4" class="resp resp3">
+                                        <div class="txtacao"><i class="fas fa-question"></i></div>
+                                        <p>Gráfico de barras laterais </p>
+                                    </button>
+
+                                    <button type="button" data-resp="3" class="resp resp4">
+                                        <div class="txtacao"><i class="fas fa-question"></i></div>
+                                        <p>Gráfico de colunas </p>
+                                    </button>
+                                    <button type="button" data-resp="2" class="resp resp2">
+                                        <div class="txtacao"><i class="fas fa-question"></i></div>
+                                        <p>Gráfico de setores </p>
+                                    </button>
+                                    <button type="button" data-resp="1" class="resp resp1">
+                                        <div class="txtacao"><i class="fas fa-question"></i></div>
+                                        <p>Gráfico de linhas</p>
+                                    </button>
+
+
+                                </div>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade associar_colunas_modal  no-print nao-imprimir"
+                                id="associar_colulas_errou" tabindex="-1" aria-labelledby="associarColunasErrou"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered animate__animated animate__bounceIn">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="associarColunasErrou">Ops, tente novamente!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade associar_colunas_modal  no-print nao-imprimir"
+                                id="associar_colulas_acertou" tabindex="-1" aria-labelledby="associarColunasAcertou"
+                                aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered  animate__animated animate__zoomIn animate__faster">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="associarColunasAcertou">Muito bem! Você acertou!
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <span class="print-only only-print">
+                            <p>Associe a primeira coluna com a segunda.</p>
+                            <table class="associe-colunas">
+                                <tr>
+                                    <td>
+                                        <img src="img/figura_17_1.png" alt="">
+                                        <img src="img/figura_17_2.png" alt="">
+                                        <img src="img/figura_17_3.png" alt="">
+                                        <img src="img/figura_17_4.png" alt="">
+                                    </td>
+                                    <td>
+                                        <p>Gráfico de barras laterais </p><br><br>
+                                        <p>Gráfico de colunas </p><br><br>
+                                        <p>Gráfico de setores </p><br><br>
+                                        <p>Gráfico de linhas</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </span>
+
+                        <div class="visually-hidden print">
+                            <p>Gabarito: 1 - Gráfico de linhas / 2 - Gráfico de setores / 3 - Gráfico de barras laterais
+                                / 4 - Gráfico de colunas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PG4 -->
+            <div class="pagina">
+                <div class="bloco1-pg4">
+                    <!-- <img src="img/pg4/img1-dir.png" class="no-print relax-top1 rellax-direita-big" data-rellax-speed="4">
+                            <img src="img/pg4/img2-esq.png" class="no-print rellax-esquerda-big relax-top15" data-rellax-speed="4"> -->
+                    <div class="container">
+                        <h2>Referências</h2>
+                        <p>CEVADA, Jefferson <em>et al</em>. Matemática nos dias de hoje – Probabilidade e estatística.
+                            1. ed. São Paulo: Sei, 2020. <b>Issuu Content</b>, 22 maio 2021. Disponível em:
+                            https://issuu.com/editorasei/docs/matematica_ndh_5. Acesso em: 6 dez. 2022. </p>
+                        <p>ERRO de leitura em gráficos. <b>Khan Academy</b>, 2021. Disponível em:
+                            https://pt.khanacademy.org/math/pt-9-ano/probabilidade-e-estistica-9ano/graficos-e-tabelas-9ano/a/erro-de-leitura-em-graficos.
+                            Acesso em: 3 jan. 2023. </p>
+                        <p>IEZZI, Gelson <em>et al</em>.<b> Matemática, ciência e aplicações</b>. 1. ed. São Paulo:
+                            Saraiva, 2011. v. 3. (Coleção Projeto Conecte). </p>
+                        <p>INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Domicílios brasileiros. <b>IBGEduca</b>,
+                            [2019?]. Disponível em:
+                            https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/21130-domicilios-brasileiros.html.
+                            Acesso em: 5 dez. 2022. </p>
+                        <p>INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Principais tipos de gráficos.
+                            <b>IBGEduca</b>, c2023. Disponível em:
+                            https://educa.ibge.gov.br/professoresieduca-recursos/20773-tipos-degraficos-no-ensino.html.
+                            Acesso em: 28 nov. 2022. </p>
+                        <p>INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Quantidade de homens e mulheres.
+                            <b>IBGEeduca</b>, [2021?]. Disponível em:
+                            https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18320-quantidade-de-homens-e-mulheres.html.
+                            Acesso em: 5 dez. 2022. </p>
+                        <p>INTERPRETAÇÃO de gráficos. <b>Projeto Agatha</b>, [s. d.]. Disponível em:
+                            https://www.projetoagathaedu.com.br/questoes-enem/matematica/interpretacao-de-graficos.php.
+                            Acesso em: 6 dez. 2022. </p>
+                        <p>MENEZES, Pedro. Tipos de gráfico. <b>Diferença</b>, c2017-2022. Disponível em:
+                            https://www.diferenca.com/tipos-de-grafico/. Acesso em: 6 dez. 2022. </p>
+                        <p>PAIVA, Manoel Rodrigues. <b>Matemática 2</b>. 2. ed. São Paulo: Moderna, 2010. </p>
+                        <p>RIBEIRO, Jackson. <b>Matemática</b>: ciência, linguagem e tecnologia – Ensino médio. São
+                            Paulo: Scipione, 2010. v. 2. </p>
+                        <p>RODRIGUES, Ricardo Batista. Modelos de negócios inovadores na era da computação em nuvem.
+                            <b>ResearchGate</b>, maio 2016. Disponível em:
+                            https://www.researchgate.net/figure/Figura-215-Exemplo-de-uso-inadequado-Grafico-de-Colunas-Fonte-Retirado-de-WTF_fig14_303744691.
+                            Acesso em: 6 dez. 2022. </p>
+                        <p>SELKE, Ricardo de Castilho <em>et al</em>. <b>Dimensões</b>: obra didática específica de
+                            ciências humanas e sociais aplicadas em diálogo com a matemática. Ensino Médio. 1. ed. São
+                            Paulo: FTD, 2020. </p>
+                        <p>TOMSON, Paulo. Gráfico de setores. <b>Geogebra</b>, [s. d.]. Disponível em:
+                            https://www.geogebra.org/m/ntveav66. Acesso em: 6 dez. 2022. </p>
+                        <p>VIANNA, Fábio. Como criar um gráfico de barras no Excel. <b><em>Blog</em> Fábio Vianna</b>,
+                            c2002-2023. Disponível em: https://fabiovianna.com.br/grafico-de-barras-no-excel. Acesso em:
+                            6 dez. 2022. </p>
+
+
+
+                    </div>
+                </div>
+                <!-- <div class="bloco2-pg4">
+                            <img src="img/pg4/img3-dir.png" class="no-print rellax relax-top15 rellax-direita " data-rellax-speed="4">
+                            <img src="img/pg4/img4-esq.png" class="no-print rellax-esquerda-big relax-top15" data-rellax-speed="4">
+                            <img src="img/pg4/img5-dir.png" class="no-print relax-top25 rellax-direita-big" data-rellax-speed="4">
+                            
+                            <div class="container">
+
+                            </div>
+                        </div> -->
+            </div>
+
+            <!-- FIM PG4 -->
+
+            <!-- PG5 -->
+            <!-- <div class="pagina">
+                        <div class="bloco1-pg5">
+                            <div class="container col-lg-12">
+                                <h2>Referências</h2>
+
+                            </div>
+                        </div>
+                    </div> -->
+
+            <!-- FIM PG5 -->
+
+        </section>
+        <!-- Paginação do print-->
+        <footer class="pg-footer text-center no-print container-fluid">
+            <ul class="pagination">
+            </ul>
+            <!-- <a href="index.html">            
+                    <div class="tela-inicial"></div>
+                </a> -->
+        </footer>
+    </section>
+
+
+    <!--Jquery-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- print legado dos técnicos -->
+    <!-- descomentar essa linha caso queira um print.css e um leitor.css exclusivo para o conteudo ao usar o botao imprimir-->
+    <!--
+    -->
+    <script>
+        var custom_print_path = 'assets/print/';
+        var custom_leitor_path = 'assets/print/';
+    </script>
+    <script src="assets/print/template.config.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/audio-player.js"></script>
+    <script src="assets/interativos/esquema_bru/esquema-bru.js"></script>
+    <script src="assets/js/geral.js"></script>
+    <script src="assets/js/rellax.min.js"></script>
+    <!-- <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jqueryui-touch-punch.js"></script> -->
+    <script src="assets/js/script.js"></script>
+    <!-- <script src="assets/js/draggable.js"></script> -->
+    <script src="assets/js/html2canvas.min.js"></script>
+    <script src="assets/js/scalable.js"></script>
+    <!-- drag -->
+
+    <script src='drag/js/dragula.js'></script>
+    <script src="drag/js/game-custom.js"></script>
+    <script src="objeto_associarColunas/js/associar-colunas.js"></script>
+
+    <script src="assets/print/print.js"></script>
+
+    <!--js objeto-->
+    <!-- <script src="assets_obj/js/js-olimpiadas-verdadeiro-ou-falso.js"></script> -->
+
+    <script>
+        window.addEventListener("load", AOS.refresh);
+    </script>
+    <script>
+        // Adding horizantal parallax scrolling
+        var rellax = new Rellax('.rellax', {
+            // Activate horizantal scrolling
+            // Turned off by default
+            horizontal: false,
+            //Deactivate vertical scrolling
+            vertical: true
+        });
+    </script>
+    <!-- Versao atual do handtalk -->
+    <script>
+        var scriptElem = document.createElement("script");
+        scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset = "UTF-8",
+            scriptElem.onload = function () {
+                window.ht = new HT({
+                    token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                    align: "top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,
+                    mobileConfig: {
+                        align: "right",
+                        actionsAlign: "top",
+                        customButtonStyle: {
+                            borderRadius: "6px",
+                            size: "38px",
+                            horizontalMargin: "13px",
+                            bottomMargin: "140px",
+                            rightMargin: "40px"
+                        }
+                    }
+                });
+                $('.ht-skip').attr("aria-hidden", "true")
+            },
+            document.body.appendChild(scriptElem);
+    </script>
+
+</body>
+
+</html>
