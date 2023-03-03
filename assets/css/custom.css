@@ -547,13 +547,11 @@ h2 {
     background-size: 100%;
 }
 .bloco7-pg1> .container{
-    
     background-color: #fff;
-    padding-right: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
     padding-top: 30px;
-}
-.bloco7-pg1> .container{
-    padding-bottom: 200px;
+    padding-bottom: 30px;
 }
 .bloco1-pg1 > .container{
     padding-top: 40px;
@@ -606,13 +604,17 @@ h2 {
 }
 .bloco2-pg2{
     position: relative;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 100px;
     background-image:  url('../../img/bg9_pg1.png');
     background-attachment: fixed;
     background-size: 100%;
-
 }
+.bloco2-pg2 .container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .bloco5-pg2{
     position: relative;
     padding-top: 100px;

@@ -53,12 +53,22 @@ dragula({
       // audio.load(); //load the new source
       // audio.play(); //play
 
-}).on("cancel", function(){
+}).on("cancel", function(el, source, target){
   scrollable = true;
 
       // Executa o áudio e a modal necessária
       // Também é possível fazer algum teste aqui caso necessário.
-  $('#bgmodal-erro').modal('show')
+
+      var item = el;
+      //console.log(item)
+
+      if(item.classList.contains('slot-3') || item.classList.contains('slot-5') || item.classList.contains('slot-8')){
+        $('#bgmodal-erro-relativa').modal('show')
+      }else{
+        $('#bgmodal-erro-absoluta').modal('show')
+      }
+      
+      
       // audio.setAttribute('src','audios/erro.mp3'); //change the source
       // audio.load(); //load the new source
       // audio.play(); //play
