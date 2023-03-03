@@ -39,7 +39,8 @@ dragula({
   revertOnSpill: true,
   direction: 'vertical',
   accepts: function (el, target, source, sibling) {
-      return el.dataset.target == target.id; 
+     // return el.dataset.target == target.id;
+      return el.classList.contains(target.id);
   }
 }).on('drag', function(el, source) {
   // On mobile this prevents the default page scrolling while dragging an item.
