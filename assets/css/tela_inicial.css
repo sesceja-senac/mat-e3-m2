@@ -39,7 +39,7 @@ a{
     transition: all 0.5s ease-out;
     margin-top: -15px;
 }
-.box img{
+.box > img{
     left: -1000px;
 }
 
@@ -52,7 +52,7 @@ a{
     font-size: 22px;
 }
 #menu > div:hover{
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 #menu > div:nth-child(1){
     background-image: url('../../img/pginicial/bt_1.png');
@@ -132,8 +132,11 @@ a{
     top:85%;
     transition: all 0.5s ease-out;
 }
-.img-titulo.init, .sub-titulo.init{
+.img-titulo.init{
     left: 0%;
+}
+.sub-titulo.init{
+    left: 2%;
 }
 /* #bt-intro1 a, #bt-intro2 a, #bt-intro4 a, #bt-intro4 a, #bt-intro5 a, #bt-intro6 a{
     transition: all 0.3s;
@@ -171,6 +174,35 @@ a{
     position: absolute;
     right: 26%;
     bottom: -172%;
+}
+#icon5{
+    position: absolute;
+    right: 5%;
+    bottom: -172%;
+    animation: bounce; 
+    animation-duration: 2s infinite; 
+    transition: all 0.5s ease-out;
+}
+.graficoAnim{
+    position: absolute;
+}
+.graficoAnim:nth-child(0){
+}
+.graficoAnim:nth-child(1){
+    top: 20px;
+    left: 20px;
+}
+.graficoAnim:nth-child(2){
+    top: 50px;
+    left: 50px;
+}
+.graficoAnim:nth-child(3){
+    top: 85px;
+    left: 75px;
+}
+.graficoAnim:nth-child(4){
+    top: 100px;
+    left: 100px;
 }
 .backdrop {
     background-color: rgba(55,55,55, .8);
@@ -240,6 +272,7 @@ a{
 } */
 #icon1 img:hover, #btn-1 img:hover {
     transform: scale(1.03);
+    opacity: 0.7;
 }
 .video-pq {
     height: 150px;
@@ -351,7 +384,7 @@ a{
             flex-wrap: wrap;
             width: 100%;
         }
-        #icon3, #icon2, #icon4 {
+        #icon3, #icon2, #icon4, #icon5 {
             display: none;
         }
         #icon1 {
@@ -433,7 +466,7 @@ a{
             align-items: center;
             
         }
-        #icon3, #icon2, #icon4 {
+        #icon3, #icon2, #icon4, #icon5 {
             display: none;
         }
         #icon1 {
