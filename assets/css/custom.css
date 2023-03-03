@@ -942,7 +942,17 @@ ul p{
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 16px;
-    font-family: Roboto;
+}
+
+.caixa-destaque{
+    padding: 20px;
+    width: 80%;
+    border: #00828b 2px solid;
+    margin: 40px auto;
+    background-color: #00828b;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px #ff9700;
 }
 
 
@@ -1017,6 +1027,10 @@ ul p{
 }
 
 @media (max-width:500px) {
+    .caixa-destaque{
+        width: 100%;
+        padding: 5px;
+    }
     
 }
 .pg-footer a:visited {
