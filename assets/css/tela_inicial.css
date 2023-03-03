@@ -347,6 +347,34 @@ a{
             top: 35%;
         }
     }
+    @media (max-width: 1280px) {
+        .aneis > img{
+            max-width: 150px;
+        }
+        #icon3 {
+            right: 21%;
+        }
+        #icon4 {
+            right: 18%;
+        }
+        #icon5 {
+            right: 1%;
+        }
+        .graficoAnim:nth-child(2) {
+            top: 40px;
+            left: 36px;
+            width: 120px;
+        }
+        .graficoAnim:nth-child(3) {
+            top: 59px;
+            left: 54px;
+            width: 83px;
+        }
+        .graficoAnim:nth-child(4) {
+            top: 66px;
+            left: 67px;
+            width: 67px;
+        }
     @media (max-width: 1080px) {
         .img-atletas{
             top: 50%;
