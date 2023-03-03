@@ -489,6 +489,7 @@ h2 {
     position: relative;
 }
 .imgif{
+    width: 700px;
     max-width: 100%;
 }
 
