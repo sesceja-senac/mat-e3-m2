@@ -486,11 +486,15 @@ h2 {
     background-size: cover;
     background-position: center;
     padding-top: 90px;
+    position: relative;
 }
-/* 
+.imgif{
+    max-width: 100%;
+}
+
 .bloco1-pg1 > .container{
-    background-image: url('../../img/bg1e2_papel.png');
-} */
+    position: relative;
+}
 .bloco2-pg1{
     padding-top: 100px;
     padding-bottom: 100px;
