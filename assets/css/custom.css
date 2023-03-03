@@ -1024,6 +1024,13 @@ ul p{
     .bloco2-pg2 {
         background-image: unset;
     }
+
+    .bloco6-pg1 .container{
+        padding-bottom: 20px;
+    }
+    .ultimo-paragrafo{
+        margin-bottom: 100px;
+    }
 }
 
 @media (max-width: 760px) {
@@ -1039,6 +1046,52 @@ ul p{
         padding: 5px;
     }
     
+    .bloco3-pg1 .container{
+        padding-left: 40px
+    }
+    .bloco2-pg1{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .caixa_vamos_refletir h4, .caixa_vamos_refletir p{
+        color: #fff;
+    }
+    .vamos_refletir1{
+        position: relative;
+        top: initial;
+        right: initial;
+        width: 100%;
+    }
+    .vamos_refletir2{
+        position: relative;
+        top: initial;
+        left: initial;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .vamos_refletir1 p, .vamos_refletir2 p{
+        line-height: 1.3rem;
+    }
+
+    .div-associar-colunas{
+        margin-top: -300px;
+        margin-bottom: -200px;
+        height: auto;
+    }
+    .associar-colunas_01{
+        transform: scale(0.5);
+        margin-left: -60px;
+    }
+    .associar-colunas_02{
+        transform: scale(0.57);
+        margin-left: 40px;
+    }
+
+    .bloco7-pg1{
+        background: none;
+        padding-top: 60px;
+    }
 }
 .pg-footer a:visited {
     color: #7a7a7a;
